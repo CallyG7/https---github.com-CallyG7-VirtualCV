@@ -86,7 +86,7 @@ body{
 }
 .contactInfo ul li .icon{
     display: inline-block;
-    width: 30px;
+    width: 250px;
     font-size: 18px;
     color:#03a9f4;
 }
@@ -96,6 +96,7 @@ body{
 }
 .education li{
     margin-bottom: 15px;
+   
 
 }
 .education h5{
@@ -105,10 +106,15 @@ body{
 .education h4{
     color:#fff;
     font-weight: 500;
+    
+
 }
 .education h4:nth-child(2){
     color:#fff;
     font-weight: 300;
+}
+.education{
+    padding-top:20px;
 }
 .language .percent{
     position: relative;
@@ -119,7 +125,7 @@ body{
     margin-top: 5px;
 
 }
-.language .percent div{
+.language .percent dev{
     position: absolute;
     top: 0;
     left: 0;
@@ -127,13 +133,13 @@ body{
     background: #03a9f4
     
 }
-
-
-
+.language{
+    padding-top:80px;
+}
 .container .right_side{
     position: relative;
     background:#fff;
-    padding: 110px; 
+    padding: 40px; 
 }
 .about{
     margin-bottom: 50px;
@@ -177,7 +183,7 @@ p{
     background: #f0f0f0;
 
 }
-.Skills .box .percent div
+.Skills .box .percent dev
 {
     position: absolute;
     top: 0;
@@ -203,7 +209,7 @@ p{
     width: 20px;
 }
 
-@mmedia (max-width: 1000px)
+@media (max-width: 1000px)
 {
     .container{
         margin: 10px;
@@ -211,6 +217,6 @@ p{
     }
     .Interest ul
     {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
 }
